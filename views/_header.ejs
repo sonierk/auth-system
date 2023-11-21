@@ -1,0 +1,21 @@
+
+
+<header>
+    <nav>
+        <div class="nav-links" >
+            <ul class="h-link">
+                <% if(locals.user){%>
+                    <li>
+                        <a href="/users/sign-out">Sign Out</a>
+                    </li>
+                    <li>
+                        <a href="/users/changepass">Change Password</a>
+                    </li>
+                <%}%>
+                
+                
+            </ul>
+        </div>
+    </nav>
+    
+</header>

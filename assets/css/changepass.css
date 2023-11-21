@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+form input {
+    color: #181818;
+    padding: 5px;
+    margin: 5px;
+}
+
+#change-btn {
+    background-color: orange;
+    color: black;
+}

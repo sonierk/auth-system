@@ -1,0 +1,21 @@
+
+<head>
+    <title> <%= title %> </title>
+</head>
+<body>
+    <div class="changepass-container">
+        <div class="change-pass">
+            <div class="form-conter">
+                <form action="/users/update/<%= user.id %>" method="post">
+                
+                    <label>Enter your Email</label>
+                     <input type="email" name="email"  value="<%= user.email %>">
+                     <input type="password" name="opass" placeholder="Old Password">
+                     <input type="password" name="npass" placeholder="New Password">
+                     <input type="submit" id="change-btn" value="Change">
+                     <!-- <a href="/users/forget-password">Forget password</a> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

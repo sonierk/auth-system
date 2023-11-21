@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="left">
+      <h2>Sign In</h2>
+      <div class="logo">
+        <img src="https://www.codingninjas.com/landing/wp-content/uploads/2021/10/New-Logo-03-1024x358.png" alt="logo">
+      </div>
+      <form id="signin-form" action="/users/create-session" method="post">
+         <div id="form-input">
+          <label for="Email">Email:</label>
+          <input type="email" class="input-text" name="email" required>
+            <label for="password">Password:</label>
+          <input type="password" class="input-text" name="password" required>
+          </div>
+          <input type="submit" class="primary-btn" value="Sign in">
+      </form>
+      <div class="links">
+        <a href="/users/auth/google"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/36px-Google_%22G%22_Logo.svg.png" alt="">Google sign in</a>
+        <a href="/users/forget-password">Forget Password</a>
+        <a href="/users/sign-up">Sign Up</a>
+      </div>
+    </div>
+    <div id="right">
+      
+      <div id="showcase">
+        <h1>Let's create the future</h1>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
+
+
+
+
