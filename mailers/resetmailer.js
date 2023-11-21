@@ -10,8 +10,7 @@ const nodeMailer = require('../config/nodemailer')
         to: user.email,
         subject: 'Password reset link',
         // html: htmlString
-        html: `<h1> Hey ${user.name}, click the <a>${link}</a> to reset your password! </h1>`
-
+        html: `<h1> Hey ${user.name}, click the <a href="${link}">Link</a> to reset your password! </h1>`
         // text: "I hope this mail gets delivered" 
     },(err, info)=>{
         if(err){
